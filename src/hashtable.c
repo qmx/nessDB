@@ -83,8 +83,8 @@ void* hashtable_get(hashtable* t, char* key)
 #ifdef DEBUG
 		printf("crc %d,key:%s \n",crc,key);
 #endif
-		return NULL;
 	}
+	return NULL;
 }
 
 /**
